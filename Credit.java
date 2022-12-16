@@ -9,8 +9,8 @@ package Praktikum8;
  *
  * @author Amir
  */
- //Import class yang dibutuhkan
-public class Customer {
-    String nama;
-    String alamat;
-}
+ public class Credit extends Payment {
+    String number, type;
+    int expDate;
+}   
+

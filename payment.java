@@ -4,13 +4,10 @@
  * and open the template in the editor.
  */
 package Praktikum8;
+ public class Payment {
+    float jumlah;
 
-/**
- *
- * @author Amir
- */
- //Import class yang dibutuhkan
-public class Customer {
-    String nama;
-    String alamat;
-}
+    public void cetakInfo() {
+        System.out.println ("Jumlah     :" + this.jumlah);
+    }
+}   
